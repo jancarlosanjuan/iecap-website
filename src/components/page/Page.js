@@ -10,11 +10,10 @@ import {
   } from '@mui/material/styles';
 
 import { Theme } from '@mui/material'
-
 import './page.css'
-
-
 import {Gallery} from '../../components'
+import ReactPlayer from 'react-player'
+
 
 //margin='0 6em' padding={'0 7em'} 
 
@@ -56,7 +55,9 @@ const Page = () => {
 
         <img src='https://res.cloudinary.com/dlx2alkrl/image/upload/v1655898193/iecap/logo_1_zvqjgg.png' alt='logo'/>
 
-
+        <Box className='Page_Player'>
+          <ReactPlayer controls url='https://youtu.be/691sJ57nHv8'/>
+        </Box>
 
         <Typography className="Page_Header-Text" variant="h4" gutterBottom component="div" sx={{justifyText:'left'}} >
         Abstract
