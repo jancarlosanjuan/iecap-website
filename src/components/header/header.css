@@ -10,13 +10,14 @@
     justify-content: center;
 
     
+    display: flex;
 }
 
 .Header_Nested{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     height: 100%;
     overflow: auto;
-    align-items: center;
+    align-items:center;
     
     
 }

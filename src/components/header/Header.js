@@ -27,7 +27,7 @@ const Header = () => {
 
 
 
-        <Typography className='Header_Text' variant="h4" gutterBottom component="div" sx={{ alignItems:"center center", color:'rgb(112,250,149)'}} margin='0 2em' align='center' >
+        <Typography className='Header_Text' variant="h2" gutterBottom component="div" sx={{ alignItems:"center center", color:'rgb(112,250,149)'}} margin='0 2em' align='center' >
                     Procedural Philippine City Generation using Real World Road Network Data
         </Typography>
 
